@@ -1,3 +1,4 @@
+/* google font  */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
@@ -14,6 +15,7 @@
   --popping: "Poppins", sans-serif;
 }
 
+/* style in all sections  */
 * {
   padding: 0;
   margin: 0;
@@ -80,7 +82,6 @@ ul {
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* justify-content: center; */
   grid-gap: 30px;
   margin-top: 65px;
 }
@@ -89,7 +90,6 @@ ul {
 }
 
 /* Header Part Start  */
-
 #header {
   padding: 20px 0;
   background-color: black;
@@ -150,7 +150,6 @@ nav ul li a::after {
 }
 
 /* DropDown Nav  */
-
 nav li {
   position: relative;
 }
@@ -209,21 +208,19 @@ nav li:hover > .sub-menu {
   font-size: 18px;
   line-height: 30px;
 }
-
-  
-.hero:hover .btn{
-
+ 
+/* created hero section animation here  */
+.hero:hover .hero-content{
       -webkit-transform:rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg);  
-   font-size: 30px;
+   font-size: 20px;
    transition: 5s;
-   background-color: black;
+  
    }
 /* Client Logo Start  */
-
 .client-logo .container {
   display: flex;
   justify-content: space-around;
@@ -368,8 +365,6 @@ nav li:hover > .sub-menu {
   visibility: hidden;
   opacity: 0;
 }
-
-
 .see-more {
   text-align: center;
   margin-top: 65px;
@@ -379,8 +374,21 @@ nav li:hover > .sub-menu {
   color: var(--btn-color);
 }
 
-/* Contact Section Start  */
+/* unboxing camera section  */
+.unboxing-ads-title{
+  text-align: center;
+  font-size: 40px;
+}
+.unboxing-video{
+  text-align: center;
+  margin-top: 50px;
+}
 
+.iframe{
+  margin-bottom: 40px;
+}
+
+/* Contact Section Start  */
 .contact-box {
   display: flex;
   gap: 30px;
@@ -441,7 +449,7 @@ textarea:focus {
   font-size: 20px;
 }
 #footer p {
-  color: var(--footer-text);
+  color: var(--white);
   margin: 10px 0 29px;
   line-height: 32px;
   font-size: 14px;

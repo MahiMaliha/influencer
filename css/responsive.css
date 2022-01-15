@@ -1,8 +1,7 @@
 /* Large devices == desktops, less than 1200px */
 @media (max-width: 1199.98px) {
   .container {
-    max-width: 992px;
-    
+    max-width: 992px; 
   }
   .hero-content h1 {
     font-size: 48px;
@@ -13,7 +12,6 @@
 @media only screen and (max-width: 991.98px) {
   .container {
     max-width: 768px;
-   
   }
   nav ul {
     position: fixed;
@@ -70,8 +68,7 @@
 /*  Small devices == landscape phones, less than 768px */
 @media (max-width: 767.98px) {
   .container {
-    max-width: 578px;
-     
+    max-width: 578px;   
   }
   .client-logo .container {
     display: grid;
@@ -97,8 +94,7 @@
 @media (max-width: 575.98px) {
   .container {
     max-width: 100%;
-    padding: 0 30px;
-    
+    padding: 0 30px; 
   }
   .row {
     grid-template-columns: repeat(1, 1fr);
@@ -125,7 +121,6 @@
 
 /*  Extra Extra Small devices == landscape phones, less than 405px */
 @media (max-width: 400px) {
-  
   .hero-content {
     text-align: center;
   }
