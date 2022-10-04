@@ -1,4 +1,4 @@
-<h1>influencer gear website</h1> 
+
 ## Features of this Website
 --Header
 <br>
