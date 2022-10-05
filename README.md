@@ -1,7 +1,6 @@
 
 
 
---Full Website Responsive
 <br>
 <br>
 --Animation
