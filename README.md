@@ -1,6 +1,3 @@
-
-<br>
-<br>
 --Footer
 
 ## Extra Added
