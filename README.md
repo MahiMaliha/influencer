@@ -1,4 +1,3 @@
-<br>
 --Animation
 <br>
 <br>
