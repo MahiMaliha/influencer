@@ -1,6 +1,3 @@
-
-<br>
-<br>
 --Hover Effect
 <br>
 <br>
