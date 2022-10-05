@@ -1,7 +1,3 @@
-
-
-
-<br>
 <br>
 --Animation
 <br>
