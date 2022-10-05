@@ -1,15 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
---Unboxing Camera Video
 <br>
 <br>
 --Contact 
